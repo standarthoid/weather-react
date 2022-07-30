@@ -7,7 +7,7 @@ export default function Footer() {
         <p className="myName">
           <a
             className="openSource"
-            href="https://github.com/standarthoid/Weather-Project"
+            href="https://github.com/standarthoid/weather-react"
           >
             Open-source Code
           </a>{" "}
