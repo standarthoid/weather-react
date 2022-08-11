@@ -7,13 +7,13 @@ export default function Temperature() {
         30
       </span>
       <span className="temperature_celsius">
-        <a href="https://www.google.com" className="active" id="celsius">
+        <a href="#" className="active" id="celsius">
           °C
         </a>{" "}
         |{" "}
       </span>
       <span className="temperature_fahrenheit">
-        <a href="https://www.google.com" id="fahrenheit">
+        <a href="#" id="fahrenheit">
           {" "}
           °F
         </a>
