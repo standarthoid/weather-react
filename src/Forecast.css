@@ -1,0 +1,36 @@
+.forecast {
+  border: solid #67e1f7 2px;
+  background: linear-gradient(
+    0deg,
+    rgba(103, 225, 247, 0.3),
+    rgba(255, 255, 0, 0.1)
+  );
+  max-width: 110px;
+  margin: 0px 155px;
+}
+.forecast-day {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(86, 85, 85);
+}
+.weather-icon {
+  text-align: center;
+  padding: 10px;
+}
+
+.Forecast-temperature {
+  text-align: center;
+  padding: 10px;
+}
+.max-temp {
+  font-weight: bold;
+  margin: 5px;
+  color: rgb(86, 85, 85);
+}
+.min-temp {
+  color: rgb(86, 85, 85);
+  opacity: 0.5;
+  margin: 5px;
+}
