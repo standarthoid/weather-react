@@ -25,19 +25,6 @@ export default function WeatherInfo(props) {
       </div>
       <div className="col">
         <WeatherTemperature celsius={props.data.temperature} />
-
-        <span className="temperature_celsius">
-          <a href="https://www.google.com" className="active" id="celsius">
-            °C
-          </a>{" "}
-          |{" "}
-        </span>
-        <span className="temperature_fahrenheit">
-          <a href="https://www.google.com" id="fahrenheit">
-            {" "}
-            °F
-          </a>
-        </span>
       </div>
       <div className="row">
         <div className="col">
