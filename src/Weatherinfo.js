@@ -1,6 +1,7 @@
 import React from "react";
 import NiceDate from "./NiceDate.js";
 import WeatherTemperature from "./WeatherTemperature.js";
+import WeatherIcon from "./WeatherIcon.js";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
@@ -21,7 +22,7 @@ export default function WeatherInfo(props) {
         </div>
       </div>
       <div className="WeatherIcon">
-        <img src={props.data.iconUrl} alt={props.data.description} id="icon" />
+        <WeatherIcon code={props.data.icon} />
       </div>
       <div className="col">
         <WeatherTemperature celsius={props.data.temperature} />
