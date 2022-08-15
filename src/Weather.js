@@ -17,7 +17,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       wind: Math.round(response.data.wind.speed),
       description: response.data.weather[0].description,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png",
+      iconUrl: `./img/${response.data.weather[0].icon}.svg`,
       date: new Date(response.data.dt * 1000),
     });
   }
