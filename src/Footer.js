@@ -8,6 +8,8 @@ export default function Footer() {
           <a
             className="openSource"
             href="https://github.com/standarthoid/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Open-source Code
           </a>{" "}
