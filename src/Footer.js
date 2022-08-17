@@ -11,9 +11,26 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Open-source Code
+            Coded by
           </a>{" "}
-          by Miriam Hanke
+          by{" "}
+          <a
+            className="openSource"
+            href="https://tourmaline-haupia-d1577a.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Miriam Hanke
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            className="openSource"
+            href="https://adorable-khapse-434fab.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
         </p>
       </div>
     </div>
